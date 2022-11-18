@@ -1,0 +1,3 @@
+# Clear all virtualbox garbage and reinstall
+sudo find / -iname "virtualbox" | xargs  sudo rm -rf && sudo dnf install VirtualBox-6.1
+
